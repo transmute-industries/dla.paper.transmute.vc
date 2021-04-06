@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce0f1d26.chunk.css",
+    "main.js": "/static/js/main.19477cb1.chunk.js",
+    "main.js.map": "/static/js/main.19477cb1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dd202074.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dd202074.js.map",
+    "static/css/2.99d0b744.chunk.css": "/static/css/2.99d0b744.chunk.css",
+    "static/js/2.58c7963c.chunk.js": "/static/js/2.58c7963c.chunk.js",
+    "static/js/2.58c7963c.chunk.js.map": "/static/js/2.58c7963c.chunk.js.map",
+    "static/js/3.508ca099.chunk.js": "/static/js/3.508ca099.chunk.js",
+    "static/js/3.508ca099.chunk.js.map": "/static/js/3.508ca099.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.99d0b744.chunk.css.map": "/static/css/2.99d0b744.chunk.css.map",
+    "static/css/main.ce0f1d26.chunk.css.map": "/static/css/main.ce0f1d26.chunk.css.map",
+    "static/js/2.58c7963c.chunk.js.LICENSE.txt": "/static/js/2.58c7963c.chunk.js.LICENSE.txt",
+    "static/media/jsoneditor.css": "/static/media/jsoneditor-icons.15f2789d.svg",
+    "static/media/purple-logo-with-text.f48a1fc7.svg": "/static/media/purple-logo-with-text.f48a1fc7.svg",
+    "static/media/transmute-loading-white.c0cc267a.gif": "/static/media/transmute-loading-white.c0cc267a.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd202074.js",
+    "static/css/2.99d0b744.chunk.css",
+    "static/js/2.58c7963c.chunk.js",
+    "static/css/main.ce0f1d26.chunk.css",
+    "static/js/main.19477cb1.chunk.js"
+  ]
+}
