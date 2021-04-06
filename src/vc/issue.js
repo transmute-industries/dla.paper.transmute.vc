@@ -21,7 +21,13 @@ const base32Encode = require("base32-encode");
 export const issue = async (credential, type) => {
   let suite;
   let key = type === "Ed25519" ? key1 : key2;
-  const credentialTemplate = { ...credential, issuer: key.controller };
+  const credentialTemplate = {
+    ...credential,
+    issuer: {
+      ...credential.issuer,
+      id: key.controller,
+    },
+  };
 
   if (type === "Ed25519") {
     suite = new Ed25519Signature2018({
