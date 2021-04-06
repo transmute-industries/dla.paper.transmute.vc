@@ -1,0 +1,12 @@
+.jsoneditor-react-container {
+  width: 100%;
+  height: 100%;
+}
+
+.jsoneditor-menu {
+  background-color: #594aa8;
+  border-bottom: 1px solid #594aa8;
+}
+.jsoneditor {
+  border: thin solid #594aa8;
+}
