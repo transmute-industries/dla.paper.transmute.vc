@@ -57,16 +57,19 @@ export const Present = (props) => {
           margin: "auto",
         }}
       >
-        <Typography variant={"h5"} gutterBottom style={{ marginTop: "20%" }}>
-          {state.name}
-        </Typography>
-        <Typography variant={"caption"}>
-          <a href="https://dla.paper.transmute.vc">
-            https://dla.paper.transmute.vc
-          </a>
-        </Typography>
+        <div style={{ marginTop: "20%", marginBottom: "8px" }}>
+          <Typography variant={"h5"} gutterBottom>
+            {state.name}
+          </Typography>
+          <Typography variant={"caption"}>
+            <a href="https://dla.paper.transmute.vc">
+              https://dla.paper.transmute.vc
+            </a>
+          </Typography>
+        </div>
+
         <QR
-          style={{ marginTop: "32px" }}
+          style={{ width: "100%", margin: "auto" }}
           data={c}
           height={512}
           width={512}
