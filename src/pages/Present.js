@@ -11,6 +11,8 @@ import { compose } from "redux";
 import { transmute } from "../store/transmute";
 import { documentLoader } from "../vc/documentLoader";
 
+import { QR } from "@bloomprotocol/qr-react";
+
 const base32Decode = require("base32-decode");
 const QRCode = require("qrcode");
 
@@ -58,7 +60,19 @@ export const Present = (props) => {
         <Typography variant={"h5"} gutterBottom style={{ marginTop: "20%" }}>
           {state.name}
         </Typography>
-        <img src={qrcode} alt="qr code" style={{ width: "95%" }} />
+        <Typography variant={"caption"}>
+          <a href="https://dla.paper.transmute.vc">
+            https://dla.paper.transmute.vc
+          </a>
+        </Typography>
+        <QR
+          style={{ marginTop: "32px" }}
+          data={c}
+          height={512}
+          width={512}
+          fgColor={"#594aa8"}
+          logo={{ hide: false, image: "/logo192.png", width: 16, height: 16 }}
+        />
       </div>
     </Base>
   );
