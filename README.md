@@ -32,4 +32,4 @@ This demo uses open source software listed below:
 - [DID Key](https://github.com/transmute-industries/did-key.js)
 - [Verifiable Credentials](https://github.com/transmute-industries/verifiable-data/tree/main/packages/vc.js)
 
-If you have questions, feel free to reach out to us at [transmute.industries/](https://transmute.industries/).
+If you have questions, feel free to reach out to us at [transmute.industries](https://transmute.industries).
