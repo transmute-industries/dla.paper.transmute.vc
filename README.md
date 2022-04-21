@@ -8,6 +8,12 @@ The demo can be found here:
 
 - [dla.paper.transmute.vc](https://dla.paper.transmute.vc/)
 
+You can scan this qr code to verify the credential claims embedded in it:
+
+<img src="./example.png" alt="qr code example" />
+
+### About This Demo
+
 This demo uses the following W3C TRs:
 
 - [https://www.w3.org/TR/did-core/](https://www.w3.org/TR/did-core/)
