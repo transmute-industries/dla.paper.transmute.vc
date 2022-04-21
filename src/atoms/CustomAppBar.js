@@ -3,12 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-
-import IconButton from "@material-ui/core/IconButton";
-import MenuIcon from "@material-ui/icons/Menu";
-
+import Button from "@material-ui/core/Button";
 import logo from "./purple-logo-with-text.svg";
-
+import CodeIcon from "@material-ui/icons/Code";
 import history from "../store/history";
 
 const useStyles = makeStyles((theme) => ({
@@ -36,7 +33,19 @@ export const CustomAppBar = ({ primaryActions }) => {
             }}
           />
         </Typography>
+
         {primaryActions}
+        <Button
+          style={{ marginLeft: "16px" }}
+          endIcon={<CodeIcon />}
+          onClick={() => {
+            window.open(
+              "https://github.com/transmute-industries/dla.paper.transmute.vc"
+            );
+          }}
+        >
+          View Source
+        </Button>
       </Toolbar>
     </AppBar>
   );
